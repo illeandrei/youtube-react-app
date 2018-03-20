@@ -1,6 +1,3 @@
-### Preview
-[rawgit](https://rawgit.com/illeandrei/youtube-react-app/master/index.html)
-
 ### Getting Started
 
 There are two methods for getting started with this repo.
