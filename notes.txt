@@ -1,0 +1,25 @@
+Functional Component -
+Is a simple function that returns some JSX.
+Fun fact - functional component can contain a class based cmp.
+
+Class based Component -
+Does every thing that a functional component does, but the difference is, a class
+component is controlled by state.
+It return JSX through the 'render' method.
+
+State -
+Is initialized in the constructor of a class (this state = ...)
+Can only be changed through the 'setState' function!
+Component level state - is the state that is initialized inside the class constructor
+                      - if state changes, the update are made only locally, i.e on the component of which the
+                        state changed.
+Application level stat - comes from redux
+
+Controlled Component -
+Is a component which is controlled by the state
+
+Data flow -
+How will all the (nested) components know about the data?
+Which component should be responsible for grabbing the data?
+Downwards data flow - means that only the most parent component of our App
+should be responsible for fetching data (from api, or from redux, or flux).
