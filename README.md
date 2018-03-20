@@ -13,6 +13,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 ```
 
 #### About React
+[React](https://reactjs.org/)
 
 #### Functional Component
 - is a simple function that returns some JSX.
